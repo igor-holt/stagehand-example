@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "stagehand-example",
+  "owner": {
+    "name": "Igor Holt (@invariantx)",
+    "url": "https://github.com/igor-holt"
+  },
+  "description": "Cloudflare Workers example integrating Stagehand (AI browser automation) with Vite, Workers AI, and custom LLM clients. Experimental surface in the @invariantx / Genesis Conductor public ecosystem for agentic browser and web automation patterns.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/igor-holt/stagehand-example",
+  "keywords": [
+    "igor-holt",
+    "invariantx",
+    "stagehand",
+    "cloudflare-workers",
+    "browser-automation",
+    "agentic-web",
+    "genesis-conductor",
+    "openclaw-ecosystem"
+  ],
+  "plugins": [
+    {
+      "name": "stagehand-example",
+      "source": "https://github.com/igor-holt/stagehand-example",
+      "description": "Stagehand + Cloudflare Workers AI browser automation example. Demonstrates production-grade agentic web interaction patterns that compose with Genesis Conductor orchestration and OpenClaw skills (including mcp-openclaw-bridge for exposing browser tools). Links to the primary openclaw-skills marketplace by @invariantx.",
+      "version": "1.0.0",
+      "tags": ["stagehand", "cloudflare", "browser-ai", "genesis-conductor"],
+      "category": "automation",
+      "homepage": "https://github.com/igor-holt/stagehand-example",
+      "keywords": ["stagehand cloudflare example", "ai browser automation workers", "agentic web tools"]
+    }
+  ],
+  "links": {
+    "github": "https://github.com/igor-holt/stagehand-example",
+    "main-marketplace": "https://github.com/igor-holt/openclaw-skills",
+    "x": "https://x.com/invariantx"
+  }
+}
